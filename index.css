@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 840px;
+    margin: 50px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: bisque;
+}
+
+#form{
+    margin-top: 20px;
+    font-weight:bolder;
+}
+
+#btn-verificar,
+#btn-limpar{
+    background-color: rgb(128, 98, 0);
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
